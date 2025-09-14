@@ -9,6 +9,11 @@
     color: #fff !important;
   }
 }
+@media (max-width: 1439px) {
+  footer {
+    display: none !important;
+  }
+}
 .site-footer {
   display: none;
 }
