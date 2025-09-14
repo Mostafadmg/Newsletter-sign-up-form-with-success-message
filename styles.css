@@ -1,3 +1,31 @@
+@media (max-width: 799px) {
+  footer {
+    display: none !important;
+  }
+}
+@media (min-width: 48rem) {
+  footer {
+    background: #36384d !important;
+    color: #fff !important;
+  }
+}
+.site-footer {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .site-footer {
+    display: block;
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    color: #fff;
+    background: #36384d;
+    z-index: 999;
+  }
+}
 /* Custom footer link styles */
 .footer-link {
   color: #d75674;
